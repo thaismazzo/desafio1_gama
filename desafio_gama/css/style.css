@@ -1,0 +1,233 @@
+
+
+*{
+    margin: 0;
+    padding: 0;   
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container {
+    width: 100%;
+    max-height: 800px;
+    display: flex;
+    
+    background-image: url('../assets/viagem.jpg');
+}
+
+
+.card-container{
+    border-radius: 25px; 
+    width: 500px;        
+    padding: 20% 10%; 
+    
+}
+
+input {
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    height: 25px;
+    margin-bottom:10px ;    
+    border-radius: 5px;
+    background: #002f70;
+}
+
+form {
+    display: grid;
+}
+
+
+footer{
+    width:90%;
+    float: left;
+    padding: 20px 100px;
+    text-align: center ;      
+    background-color: #93d4e8;
+    position: absolute;       
+}
+
+.footer-text{
+    width: 100%;
+    color: #002f70;
+    font-size: 100%;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.social-icons a {font-size: 1.5em; color: rgb(29, 15, 15);margin-right: 3% ;}
+
+
+
+.title{
+    width: 100%;
+    color: #002f70;
+    font-size: 150%;
+    background-color:#f1f1f1;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+}
+
+.title2{
+    width: 100%;
+    color: #002f70;
+    font-size: 250%;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    background-color:#a6bec5;
+}
+
+.acima{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #002f70;
+    text-align: justify;
+    background-color: #a6bec5;
+    
+    
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 20px;
+
+    
+}
+header {  
+    width: 100%; 
+    color: white;
+    /* background: #5d9df7; */
+    overflow: hidden;
+    background-color: #f1f1f1;
+    /* padding: 20px 100px;   */
+     
+}
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration:none;
+    font-size: 15px;
+    /* line-height: 25px; */
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+
+
+.header-right {
+  float: right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+.img{
+    width: 100%;
+    display:flex       
+
+}
+
+.card-one {
+    transition: all 0.3s;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    justify-content: center;    
+    
+    display: grid;
+    position:relative;
+    background-color: #93d4e8;
+    margin:center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo{
+
+}
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 700px) {
+  .header a {
+    float: none;    
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+  .img{
+    
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  .card-container{
+    padding: 20% 10%;
+    border-radius: auto;
+    display: grid;  
+     
+  }
+  .section-container {
+    width: 100%; 
+    padding: 100px;  
+    background-image: url('../assets/viagem.jpg');
+    
+  }
+
+  .card-one {
+    justify-content:center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    display: grid;
+    background-color: #93d4e8;
+    }
+
+    .card:hover {
+        
+      }
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+.blue {
+  border-left: 6px solid #002f70;
+}
+ 
